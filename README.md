@@ -1,24 +1,29 @@
-# INSTRUCTIONS
+**LOCAL REPOSITORY**
 
-1. git init - intialize a git repository
-2. git add <file> - add the file into staging area
-3. git commit -m <message> - commit into local repos
+<code>01. git init</code> - initialize a git repository <br>
+<code>02. git add [file]</code> - add the file into staging area <br>
+<code>03. git commit -m [message]</code> - commit into local repos <br>
 
-## CREATE AN SSH KEY
+**CREATE AN SSH KEY**
 
-4. ssh-keygen - generate a ssh key  
-5. cat ~/.ssh/id_rsa.pub - show the ssh public key
-6. copy prev ssh-key & paste it onto github ssh authentication
+<code>04. ssh-keygen</code> - generate a ssh key <br>
+<code>05. cat ~/.ssh/id_rsa.pub</code> - show the ssh public key <br>
+<code>06. copy prev ssh-key & paste it onto github ssh authentication</code> <br>
 
+**REMOTE REPOSITORY**
 
-7. create repository on github
-8. copy the ssh-url of that repo
-7. git remote origin <ssh-url> - add a origin of remote repo into local repo
-8. git push origin master - move from local to remote 
-9. git pull origin master - move from remote to local
+<code>07. create repository on github</code> <br>
+<code>08. copy the ssh-url of that repo</code> <br>
 
-## USEFUL COMMANDS
+**LOCAL REPOSITORY**
 
-1. git switch -c <branch-name> - it will create and switch to the new branch
-2. git merge <branch-name> - this will only work on master branch
-3. git clone <ssh-url> - it will clone the repo onto your local repository
+<code>09. git remote origin [ssh-url]</code> - add a origin of remote repo into local repo <br>
+<code>10. git push origin master</code> - move from local to remote <br>
+<code>11. git pull origin master</code> - move from remote to local <br>
+
+**USEFUL COMMANDS**
+
+<code>12. git switch -c [branch-name]</code> - it will create and switch to the new branch <br>
+<code>13. git branch -D [branch-name]</code> - to delete a branch <br>
+<code>14. git merge [branch-name]</code> - this will only work on master branch <br>
+<code>15. git clone [ssh-url] .</code> - it will clone the repo onto your local repository <br>
