@@ -1,33 +1,82 @@
+
 **Beginner Commands :**
 
-<code>01. git init</code> - initialize a git repository
+01 - Initialize a git repository
+
+```bash
+git init
+ ```
   
-<code>02. git add [file]</code> - add the file into staging area
+  02 - Add the file into staging area
   
-<code>03. git commit -m [message]</code> - commit into local repos
+```bash
+git add <file>
+```
   
-<code>04. ssh-keygen</code> - generate a ssh key
+  03 - Commit into local repos
 
-<code>05. cat ~/.ssh/id_rsa.pub</code> - show the ssh public key
+```bash
+git commit -m <message>
+```
+  
+  04 - Generate a ssh key
+  
+```bash
+ssh-keygen
+```
 
-<code>06. copy prev ssh-key & paste it onto github ssh authentication</code>
+05 - Show the ssh public key
 
-<code>07. create repository on github</code>
+```bash
+cat ~/.ssh/id_rsa.pub
+``` 
 
-<code>08. copy the ssh-url of that repository</code>
+06 - Copy prev ssh-key & paste it onto github ssh authentication
 
-<code>09. git remote origin [ssh-url]</code> - add a origin of remote repository into local repository
+07  - Create repository on github
 
-<code>10. git push origin master</code> - move from local to remote
+08 - Copy the ssh-url of that repository
+
+09 - Add a origin of remote repository into local repository
+
+```bash
+git remote origin <ssh-url>
+``` 
+
+10 - Move from local to remote
+
+```bash
+git push origin master
+```
 
 **Advanced Commands :**
 
-<code>11. git pull origin master</code> - move from remote to local
+11 - Move from remote to local
 
-<code>12. git switch -c [branch-name]</code> - it will create and switch to the new branch
+```bash
+git pull origin master
+``` 
 
-<code>13. git branch -D [branch-name]</code> - to delete a branch
+12 -  Create and switch to the new branch
 
-<code>14. git merge [branch-name]</code> - this will only work on master branch
+```bash
+git switch -c <branch-name>
+```
 
-<code>15. git clone [ssh-url] .</code> - it will clone the remote repository onto your local repository
+13 - Delete a branch
+
+```bash
+git branch -D <branch-name>
+```
+
+14 - Merge feature branch with master branch
+
+```bash
+git merge <branch-name>
+```
+
+15 - Clone the remote repository onto your local repository
+
+```bash
+git clone <ssh-url> .
+```
