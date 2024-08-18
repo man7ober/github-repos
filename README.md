@@ -1,5 +1,5 @@
 
-**Beginner Commands :**
+## Git Commands
 
 01 - Initialize a git repository
 
@@ -48,8 +48,6 @@ git remote origin <ssh-url>
 ```bash
 git push origin master
 ```
-
-**Advanced Commands :**
 
 11 - Move from remote to local
 
